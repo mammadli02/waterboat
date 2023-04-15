@@ -1,0 +1,28 @@
+%h3 {
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: $black;
+    font-size: 1.75rem;
+    font-family: $fontfamily;
+    font-weight: 500;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+        width: 50px;
+        text-align: center;
+        height: 2px;
+        background-color: $mainblue;
+    }
+}
+
+%span {
+    font-family: $dansingfamily;
+    color: $mainblue;
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
